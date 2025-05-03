@@ -1,0 +1,182 @@
+/* Checkout.css - Dark Theme */
+
+.checkout-form {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 35px;
+    background: linear-gradient(145deg, #1e222d, #252b39);
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+.checkout-form h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 2rem;
+    color: #ff7e5f;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.checkout-form h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    border-radius: 3px;
+}
+
+.note {
+    background-color: rgba(255, 243, 205, 0.1);
+    border-left: 4px solid #feb47b;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    font-size: 0.95rem;
+    color: #feb47b;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #d0d0d0;
+    font-size: 1.1rem;
+}
+
+.form-group input[type="time"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2a2f3b;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2a2f3b;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+    min-height: 120px;
+    resize: vertical;
+}
+
+input[type="time"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2a2f3b;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Make the clock icon white */
+input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    /* This turns the default dark clock icon to white */
+}
+
+input[type="time"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #ff7e5f, inset 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #ff7e5f, inset 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.checkout-summary {
+    margin-top: 40px;
+    border-top: 1px solid #2a2f3b;
+    padding-top: 25px;
+}
+
+.checkout-summary h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    color: #ff7e5f;
+}
+
+.checkout-summary>div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    color: #d0d0d0;
+    transition: all 0.3s ease;
+}
+
+.checkout-summary>div:hover {
+    background-color: rgba(255, 126, 95, 0.1);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+}
+
+.checkout-summary>div:last-child {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px dashed #2a2f3b;
+    font-size: 1.2rem;
+    color: #ff7e5f;
+}
+
+.checkout-form button {
+    padding: 14px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+
+.checkout-form button:first-of-type {
+    background: rgba(117, 117, 117, 0.2);
+    color: #d0d0d0;
+    border: 1px solid #505050;
+}
+
+.checkout-form button:first-of-type:hover {
+    background: rgba(117, 117, 117, 0.3);
+    transform: translateY(-2px);
+}
+
+.checkout-form button:last-of-type {
+    background: linear-gradient(to right, #4CAF50, #45a049);
+    color: white;
+    float: right;
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+}
+
+.checkout-form button:last-of-type:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(76, 175, 80, 0.4);
+}

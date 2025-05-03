@@ -1,0 +1,121 @@
+/* Cart.css - Dark Theme */
+
+.cart-items {
+    padding: 30px;
+    background: linear-gradient(145deg, #1e222d, #252b39);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #2a2f3b;
+    transition: all 0.3s ease;
+  }
+  
+  .cart-item:hover {
+    transform: translateX(5px);
+    border-left: 3px solid #ff7e5f;
+    padding-left: 10px;
+  }
+  
+  .cart-item-details h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+    color: #ff7e5f;
+    font-weight: 600;
+  }
+  
+  .cart-item-details p {
+    color: #b0b0b0;
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  .cart-item-price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .cart-item-price p {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #feb47b;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item-price button {
+    background: linear-gradient(to right, #f44336, #c62828);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(244, 67, 54, 0.3);
+  }
+  
+  .cart-item-price button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(244, 67, 54, 0.4);
+  }
+  
+  .cart-total {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .cart-total h3 {
+    font-size: 1.5rem;
+    color: #ff7e5f;
+    margin-bottom: 20px;
+  }
+  
+  .cart-total button {
+    background: linear-gradient(to right, #2196F3, #0b7dda);
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 15px rgba(33, 150, 243, 0.3);
+  }
+  
+  .cart-total button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(33, 150, 243, 0.4);
+  }
+  
+  .empty-cart {
+    text-align: center;
+    padding: 80px 0;
+    color: #888;
+    font-style: italic;
+    background: linear-gradient(145deg, #1e222d, #252b39);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    font-size: 1.2rem;
+    position: relative;
+  }
+  
+  .empty-cart::before {
+    content: '🛒';
+    display: block;
+    font-size: 4rem;
+    margin-bottom: 20px;
+    opacity: 0.5;
+  }
