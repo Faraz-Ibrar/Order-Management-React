@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Faraz-Ibrar/Order-Management-React/static/css/main.329097c8.css",
-    "main.js": "/Faraz-Ibrar/Order-Management-React/static/js/main.17d418df.js",
-    "index.html": "/Faraz-Ibrar/Order-Management-React/index.html",
-    "main.329097c8.css.map": "/Faraz-Ibrar/Order-Management-React/static/css/main.329097c8.css.map",
-    "main.17d418df.js.map": "/Faraz-Ibrar/Order-Management-React/static/js/main.17d418df.js.map"
+    "main.css": "/Order-Management-React/static/css/main.329097c8.css",
+    "main.js": "/Order-Management-React/static/js/main.df86677a.js",
+    "index.html": "/Order-Management-React/index.html",
+    "main.329097c8.css.map": "/Order-Management-React/static/css/main.329097c8.css.map",
+    "main.df86677a.js.map": "/Order-Management-React/static/js/main.df86677a.js.map"
   },
   "entrypoints": [
     "static/css/main.329097c8.css",
-    "static/js/main.17d418df.js"
+    "static/js/main.df86677a.js"
   ]
 }
