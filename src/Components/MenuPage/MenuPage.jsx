@@ -1,5 +1,3 @@
-// src/components/MenuPage/MenuPage.jsx
-import React from "react";
 import MenuManager from "../MenuManager/MenuManager";
 import { menuItems  } from "../../data/menuItems";
 

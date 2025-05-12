@@ -1,5 +1,5 @@
-// src/components/MenuManager/MenuManager.jsx
-import React, { useState, useEffect } from "react";
+
+import { useState, useEffect } from "react";
 import MenuItemCard from "./MenuItemCard";
 import Cart from "./Cart";
 import Checkout from "./Checkout";
