@@ -1,54 +1,16 @@
-/* MenuItemCard.css - Dark Theme */
 
 .menu-item {
-    background: linear-gradient(145deg, #1e222d, #252b39);
+    background: #1e222d;
     border-radius: 16px;
     overflow: hidden;
     transition: all 0.4s ease;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-    position: relative;
-    height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.ribbon {
-    position: absolute;
-    top: 15px;
-    right: -30px;
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
-    color: #1a1a1a;
-    font-size: 0.8rem;
-    font-weight: 600;
-    padding: 5px 30px;
-    transform: rotate(45deg);
-    z-index: 10;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-}
-
 .menu-item:hover {
     transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
 }
-
-.menu-item::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.5) 100%);
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.menu-item:hover::after {
-    opacity: 1;
-}
-
-
 
 .item-image {
     width: 100%;
@@ -58,13 +20,8 @@
     transition: transform 0.5s ease;
 }
 
-.menu-item:hover .item-image {
-    transform: scale(1.05);
-}
-
 .item-details {
     padding: 20px;
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
@@ -158,7 +115,7 @@
     text-align: center;
     font-size: 1rem;
     transition: all 0.3s ease;
-    -moz-appearance: textfield;
+    
 }
 
 

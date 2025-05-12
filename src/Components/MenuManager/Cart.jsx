@@ -1,5 +1,3 @@
-// src/components/MenuManager/Cart.jsx
-import React from "react";
 import "./Cart.css";
 
 export default function Cart({ cart, onRemoveFromCart, onCheckout, totalAmount }) {

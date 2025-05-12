@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./MenuItemCard.css";
 
 export default function MenuItemCard({ item, onAddToCart }) {

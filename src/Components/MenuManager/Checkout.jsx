@@ -1,5 +1,4 @@
-// src/components/MenuManager/Checkout.jsx
-import React from "react";
+
 import "./Checkout.css";
 
 export default function Checkout({ cart, deliveryTime, deliveryAddress, setDeliveryTime, setDeliveryAddress, totalAmount, onPlaceOrder, onBack }) {
